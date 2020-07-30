@@ -31,5 +31,18 @@ aplicaciones está corriendo un sitio web en específico.
  whois: información de registro de DNS dentro de una base de datos de dominios en particular
  
   
+ host: busqueda de IP
+ -dnsenum: para enlistar todos los dominios
+ --server: para especificar el servidor
+ -dnsmap: Combinaciones posibles en nombres de dominio
+     -w archivo de lista de palabras
+     -r archivo de resultados regulares
+     -c archivo de resultados csv
+     -d retrasa milisegundos
+     -i ips para ignorar
+     min 20:23
  
   
+-nslookup para busquedas rapidas 
+
+- dig estructura de una nuswuqeda en los servicios de DNS, Query, Answer, Authority, Additional 
