@@ -45,4 +45,57 @@ aplicaciones está corriendo un sitio web en específico.
   
 -nslookup para busquedas rapidas 
 
-- dig estructura de una nuswuqeda en los servicios de DNS, Query, Answer, Authority, Additional 
+- dig estructura de una nuswuqeda en los servicios de DNS, Query, Answer, Authority, Additional  
+     +noall
+     +answer
+     +authority
+     -t para que tipos de registro quiero obtener
+
+# fierce
+
+
+- man httrack
+-les index 
+
+- man fping 
+29:18 
+
+-cat hosts
+
+-nmap  -Pn -p-  -p58175 -p22 -sT -sn -iL -sU -p14-50  -sX -p1-50 -sN 
+--script banner -script vuln  
+
+-cat nmap
+
+Nessus: tenable.com
+
+-UDP
+
+ # apt install openvas   # openvas-setup #openvasmd -create-user 
+ servidor local 127.0.0.1
+ 
+ metasploit 
+ msfconsole
+  -search ms08-067
+  -use exploit
+  - show payloads
+  -set payload windows
+  - set RHOST 
+  -exploit
+  -hashdump
+ 
+ 
+ Armitage
+ 
+ creacion de diccionarios
+ -man crunch 
+ -crunch 1 4 | less
+  
+
+medusa
+less password.lst
+cp password.lest~/medusa
+cp unix_users~/medusa
+-h
+-U
+  
