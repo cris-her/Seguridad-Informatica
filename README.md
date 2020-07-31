@@ -83,6 +83,8 @@ Nessus: tenable.com
   - set RHOST 
   -exploit
   -hashdump
+ - search netapi
+ -set payload windows windows/meterpreter/bind_tcp
  
  
  Armitage
@@ -99,3 +101,35 @@ cp unix_users~/medusa
 -h
 -U
   
+-hashes 
+
+ophcrack
+
+
+iwconfig
+ -airmon -ng stop
+ -airmon -ng start wlan0 2
+ 
+aireplay
+-ng --test wlan0mon
+
+harvesting ip addres 
+ping
+setoolkit
+2
+3
+1
+
+
+ nikto 
+  -h
+  
+  
+WebScarab
+
+
+golismero
+scan webscantest.com -e  nikito -espider   -nd (no database)
+
+192.168.20.23/    DVWA
+---
