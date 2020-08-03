@@ -132,4 +132,31 @@ golismero
 scan webscantest.com -e  nikito -espider   -nd (no database)
 
 192.168.20.23/    DVWA
----
+
+
+
+---------------------------
+
+Hacking etico 
+
+-ifconfig
+
+
+Para obtener informacion del servidor: ../../../../etc/
+Inyeccion Para obtener la informacion de usuarios y contraseña ' or 1=1 --
+Cross Site reflejado <script> alert(1)</script>
+ 
+osint Framework 
+
+nikto -h
+nikto -h -o html
+siperfoot:
+pip 
+./sf.py
+apt
+
+
+nmap escaneo de red
+
+
+arpsfpoff -i enp0s3 -t -r 
