@@ -16,6 +16,8 @@
 * Avanzado de redes de internet
 * Autenticación con OAuth
 
+Resize the standard Ubuntu Desktop inside of Virtualbox: sudo apt-get install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
+
 Código del curso de seguridad 
 *Busquedas*
  -site: Para busquedas en dominio particular
